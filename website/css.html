@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/jpg" href="image/me.jpg">
+        <title>My CSS</title>
+
+        <!-- internal css -->
+        <style> 
+            body{
+                background-color: black;
+            }
+            h1{
+                color: white; 
+            } 
+            #p0{
+                color:aquamarine;
+            }
+        </style>
+
+        <!-- h1 will use lastest css in head at line 31 -->
+        <!-- link external css each tag need to have id -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- This link for access API on https://fonts.google.com/ -->
+        <!-- if have font file in folder dont have to link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Tektur&display=swap" rel="stylesheet">
+
+        <!-- icon https://fontawesome.com/icons -->
+        <script src="https://kit.fontawesome.com/10a7c0aebf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- inline css -->
+        <h1 style="color:tomato;">This is inline css</h1>
+        
+        <!-- intenal css -->
+        <p id="p0">This internal css use id</p>
+        
+        <!-- external css -->
+        <p id="p1">This external css use id</p>
+        <p id="p2">This external css use id</p>
+        <p id="p3">This external css use id</p>
+        <p id="p4">This external css use id</p>
+        
+        <!-- external css use class -->
+        <p id="p5" class="one">This external css use class</p>
+        <p id="p6" class="two">This external css use class</p>
+        <br>
+
+        <!-- font -->
+        <h1 id="h1">This is font</h1>
+        <h1 id="h2">This is font</h1>
+        <br>
+
+        <!-- border -->
+        <h1 id="h3">This is solid border</h1>
+        <h1 id="h4">This is dashed border</h1>
+        <h1 id="h5">This is dotted border</h1>
+        <h1 id="h6">This is double border</h1>
+        <h1 id="h7">This is groove border</h1>
+        <h1 id="h8">This is ridge border</h1>
+        <h1 id="h9">This is inset border</h1>
+        <h1 id="h10">This is outset border</h1>
+        <h1 id="h11">This is 4side border</h1>
+        <br>
+
+        <!-- shadow -->
+        <h1 id="h12">This is shadow</h1>
+        <div id="box0"></div>
+        <br>
+        <br>
+        
+        <!-- margin -->
+        <h1 id="h13">This is margin</h1>
+        <div id="box1" class="box">auto left</div>
+        <div id="box2" class="box">auto right</div>
+        <div id="box3" class="box">auto margin</div>
+        <br>
+        <br>
+        
+        <!-- This is float -->
+        <h1>This is float</h1>
+        <img src="image/picture1.jpg" id="image1" width="200px">
+        <p class="floattext">This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left</p>
+        <p class="floattext">This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left</p>
+        <p class="floattext">This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left</p>
+        <p class="floattext">This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left This is float left</p>
+        <br>
+        <img src="image/picture2.jpg" id="image2" width="200px">
+        <p class="floattext">This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right</p>
+        <p class="floattext">This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right</p>
+        <p class="floattext">This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right</p>
+        <p class="floattext">This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right This is float right</p>
+        <br>
+        <br>
+
+        <!-- overflow -->
+        <h1>This is overflow</h1>
+        <div id="box4">
+            <p>This is visible overflow </p>
+            <p>This is visible overflow </p>
+            <p>This is visible overflow </p>
+            <p>This is visible overflow </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="box5">
+            <p>This is hidden overflow </p>
+            <p>This is hidden overflow </p>
+            <p>This is hidden overflow </p>
+            <p>This is hidden overflow </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="box6">
+            <p>This is clip overflow </p>
+            <p>This is clip overflow </p>
+            <p>This is clip overflow </p>
+            <p>This is clip overflow </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="box7">
+            <p>This is scroll overflow </p>
+            <p>This is scroll overflow </p>
+            <p>This is scroll overflow </p>
+            <p>This is scroll overflow </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="box8">
+            <p>This is auto overflow </p>
+            <p>This is auto overflow </p>
+            <p>This is auto overflow </p>
+            <p>This is auto overflow </p>
+        </div>
+        <br>
+        <br>
+
+        <!-- display -->
+        <h1>This is display </h1>
+        <div id="box9">div take all line</div> <!-- div take entire line -->
+        <br>
+        <span id="box10">span take equal to text</span> <!-- span take equal text -->
+        <br>
+        <br> <!-- box10 is span it inline -->
+        <div id="box11">div can assign width and height</div>
+        <br>
+        <span id="box12">span cant assign it inline</span>
+        <br>
+        <br> 
+        <div id="box13">This display "block" can use in div and span</div>
+        <br>
+        <div id="box14">This display</div>
+        <div id="box15">"inline"</div>
+        <br>
+        <br>
+        <div id="box16">This display </div>
+        <div id="box17">"inline-block"</div>
+        <br>
+        <br>
+
+        <!-- width and height -->
+        <h1>This is width and height</h1>
+        <div id="box18">This is auto width and height</div>
+        <div id="box19">if it have enough space it can float or use "box-sizing: border-box"</div>
+        <br>
+        <br>
+
+        <!-- position-->
+        <h1>This is position</h1>
+        <div id="box20">relative position</div>
+        <br>
+        <div id="box21">fixed position</div>
+        <br>
+        <div id="box22">
+            <div id="box23">
+                absolute position <!-- if move box22 box23 will move too -->
+            </div>
+        </div>
+        <br>
+        <div id="box24">sticky position</div>
+        <br>
+        
+        <!-- combinators -->
+        <h1>This is combinators</h1>
+        <div id="box25">
+            <p>This is ">"child sibling of box25</p>
+            <p>This is ">"child sibling of box25</p>
+            <div>
+                <p>This is one more deep level from child level</p>
+            </div>
+        </div>
+        <p>This is "+"adjacent sibling next to box25</p>
+        <p>This is "~"general sibling all except box25</p>
+        <p>This is "~"general sibling all except box25</p>
+        <br>
+
+        <!-- pseudo class -->
+        <h1>This is pseudo class</h1>
+        <a id="a1" href="https://www.google.com/" target="_blank">Google</a>
+        
+        <ul>
+            <li class="pseudolist" >hover to change color</li>
+            <li class="pseudolist" >hover to change color</li>
+            <li class="pseudolist" >hover to change color</li>
+            <li class="pseudolist" >hover to change color</li>
+            <li class="pseudolist" >hover to change color</li>
+            <li class="pseudolist" >hover to change color</li>
+            <li class="pseudolist" >hover to change color</li>
+            <li class="pseudolist" >hover to change color</li>
+            <li class="pseudolist" >hover to change color</li>
+        </ul>
+
+        <div id="box26">
+            hover hello will display
+            <p>Hello</p>
+        </div>
+        <br>
+
+        <!-- pseudo element -->
+        <h1>This is pseudo element</h1>
+        <div id="box27">Can change letter one by one</div>
+        <ul id="fruit">
+            <li id="apple">apple</li>
+            <li id="orange">orange</li>
+            <li id="banana">banana</li>
+        </ul>
+        <br>
+
+        <!-- pagination -->
+        <h1>This is pagination</h1>
+        <div id="box28">Page 1</div>
+        <br>
+        <div class="pagination">
+            <a href=""><</a> 
+            <a href="css.html" class="active" >1</a>
+            <a href="page2.html" >2</a>
+            <a href="page3.html" >3</a>
+            <a href="page4.html" >4</a>
+            <a href="page2.html">></a>
+        </div>
+        <br>
+        <br>
+
+        <!-- dropdown menu -->
+        <h1>This is dropdown menu</h1>
+        <div id="dropdown">
+            <button>Food</button>
+            <div id="content">
+                <a href="">Apple</a>
+                <a href="">Orange</a>
+                <a href="">Banana</a>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <!-- navigation bar -->
+        <h1>This is nabigation bar</h1>
+        <div id="box29">This is home page</div>
+        <br>
+        <nav id="navbar">
+            <ul>
+                <li><a href="css.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+
+        <!-- layout -->
+        <h1>This is layout</h1>
+        <div id="layout">
+            <header>
+                <h2>Header</h2>
+            </header>
+            <nav>
+                <h3>Navigation bar</h3>
+            </nav>
+            <main>
+                <aside>
+                    <h2>This is aside</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio modi libero in quia molestias quasi alias voluptatum corporis, at velit inventore error voluptates tempore totam quas, harum labore ex!</p>
+                </aside>
+                <section>
+                    <h2>This is section</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio modi libero in quia molestias quasi alias voluptatum corporis, at velit inventore error voluptates tempore totam quas, harum labore ex!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio modi libero in quia molestias quasi alias voluptatum corporis, at velit inventore error voluptates tempore totam quas, harum labore ex!</p>
+                </section>
+                <article>
+                    <h2>This is article</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio modi libero in quia molestias quasi alias voluptatum corporis, at velit inventore error voluptates tempore totam quas, harum labore ex!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio modi libero in quia molestias quasi alias voluptatum corporis, at velit inventore error voluptates tempore totam quas, harum labore ex!</p>
+                </article>
+            </main>
+            <footer>
+                <h2>Footer</h2>
+            </footer>
+        </div>
+        <br>
+
+        <!-- image gallery -->
+        <h1>This is image gallery</h1>
+        <div id="gallery">
+            <a href="image/banana cat.png" target="_blank">
+                <img src="image/banana cat.png" alt="banana cat"> <!-- alt for screen reader -->
+            </a>
+            <div id="description">Banana cat</div> 
+        </div>
+
+        <div id="gallery">
+            <a href="image/kerby.png" target="_blank">
+                <img src="image/kerby.png" alt="banana cat"> <!-- alt for screen reader -->
+            </a>
+            <div id="description">Kerby</div> 
+        </div>
+
+        <div id="gallery">
+            <a href="image/minecraft.png" target="_blank">
+                <img src="image/minecraft.png" alt="banana cat"> <!-- alt for screen reader -->
+            </a>
+            <div id="description">Mincraft</div> 
+        </div>
+        <br>
+
+        <!-- icon -->
+        <h1>This is icon</h1>
+        <div id="icon">
+            <a target="_blank" href="">
+                <i class="fa-solid fa-house fa-5x"></i> <!-- fa-5x is size -->
+            </a>
+            <a target="_blank" href="https://twitter.com">
+                <i class="fa-brands fa-twitter fa-5x"></i>
+            </a>
+            <a target="_blank" href="https://twitch.com">
+                <i class="fa-brands fa-twitch fa-5x"></i>
+            </a>
+            <a target="_blank" href="https://youtube.com">
+                <i class="fa-brands fa-youtube fa-5x"></i>
+            </a>
+        </div>
+        <br>
+
+        <!-- flexbox -->
+        <h1>This is flexbox</h1>
+        <div class="flexbox">
+            <div class="bigbox" id="smallbox1">1</div>
+            <div class="bigbox" id="smallbox2">2</div>
+            <div class="bigbox" id="smallbox3">3</div>
+            <div class="bigbox" id="smallbox4">4</div>
+        </div>
+        <br>
+
+        <!-- tranfomation -->
+        <h1>This is tranfomation</h1>
+        <div id="box30">Hi</div>
+        <br>
+
+        <!-- animation -->
+        <h1>This is animation</h1>
+        <div id="animation">
+            <img src="image/mohanlal.gif" id="applecat">
+            <br>
+            <img src="image/banana-crying-cat.gif" id="bananacat">
+            <br>
+            <img src="image/fast-cat-cat-excited.gif" id="happycat">
+        </div>
+        <br>
+        <div id="rgb">Hi</div>
+    </body>
+</html>
